@@ -1,0 +1,72 @@
+<aiml version="2.0">
+
+  <category>
+    <pattern>OLÁ</pattern>
+    <template>Oi! Estou aqui para conversar sobre Clojure. O que você gostaria de saber?</template>
+  </category>
+
+  <category>
+    <pattern>O QUE É CLOJURE</pattern>
+    <template>
+      Clojure é uma linguagem de programação funcional e dinâmica, baseada em Lisp, que roda na JVM (Java Virtual Machine). Ela é conhecida por sua imutabilidade e facilidade de manipulação de dados. Para mais detalhes, acesse o <a href="https://clojure.org" target="_blank">site oficial do Clojure</a>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>PARA QUE SERVE CLOJURE</pattern>
+    <template>
+      Clojure é ideal para tarefas que envolvem manipulação de dados, processamento paralelo, desenvolvimento de sistemas reativos e muito mais. Ela é usada em várias áreas, como web, ciência de dados e backend. Confira mais no <a href="https://clojure.org" target="_blank">site oficial do Clojure</a>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>O QUE É REPL</pattern>
+    <template>REPL significa Read-Eval-Print Loop. Em Clojure, o REPL é um ambiente interativo onde você pode escrever e testar código em tempo real, facilitando o desenvolvimento e a prototipagem rápida.</template>
+  </category>
+
+  <category>
+    <pattern>QUAIS SÃO AS BIBLIOTECAS POPULARES</pattern>
+    <template>Algumas das bibliotecas populares em Clojure são:
+      <ul>
+        <li>re-frame: para construção de UIs com ClojureScript</li>
+        <li>Ring: para construção de APIs web</li>
+        <li>Compojure: para roteamento web</li>
+        <li>Core.async: para programação assíncrona</li>
+      </ul>
+      <button>
+          <text>site oficial do Clojure</text>
+          <url>"https://clojure.org"</url>
+      </button>
+    </template>
+  </category>
+
+  <category>
+    <pattern>O QUE É PARADIGMA FUNCIONAL</pattern>
+    <template>O paradigma funcional é um estilo de programação onde as funções são tratadas como cidadãs de primeira classe e se evita mutabilidade e efeitos colaterais. Clojure adota fortemente esse paradigma para promover um código mais limpo e previsível.</template>
+  </category>
+
+  <category>
+    <pattern>O QUE É IMUTABILIDADE</pattern>
+    <template>Imutabilidade significa que, uma vez criado, o estado de um objeto não pode ser alterado. Em Clojure, isso permite um código mais seguro e que evita muitos problemas de concorrência, pois os dados não são modificados diretamente.</template>
+  </category>
+
+  <category>
+    <pattern>QUEM CRIOU CLOJURE</pattern>
+    <template>Clojure foi criado por Rich Hickey em 2007. Ele desenvolveu a linguagem para ser uma alternativa moderna e prática para o desenvolvimento na JVM.</template>
+  </category>
+
+  <category>
+    <pattern>QUAIS SÃO AS VANTAGENS DE USAR CLOJURE</pattern>
+    <template>Algumas das vantagens de usar Clojure incluem a simplicidade da sintaxe, a forte imutabilidade, o suporte à programação funcional e a execução na JVM, que permite interoperabilidade com Java e acesso a uma vasta gama de bibliotecas.</template>
+  </category>
+
+  <category>
+    <pattern>OBRIGADO</pattern>
+    <template>De nada! Espero ter ajudado. Se precisar saber mais sobre Clojure, estarei por aqui!</template>
+  </category>
+
+<category>
+    <pattern>olá</pattern>
+    <template>Oi! Estou aqui para conversar sobre Clojure. O que você gostaria de saber?</template>
+</category>
+</aiml>
